@@ -1,0 +1,5 @@
+Defineste structurile iterative: for, foreach și while
+Care este diferenta intre for și foreach, da exemple de folosire
+Care este diferenta intre for și while?
+Ce este o bucla/loop infinit?
+Ce face break, ce face continue?

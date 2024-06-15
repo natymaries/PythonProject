@@ -1,0 +1,57 @@
+1. In ce se aseamana și in ce se deosebesc listele și tuplurile?
+Asemanari:
+- pot contine tipuri de date diferite
+- elementele pot fi accesate cu ajutorul indecsilor
+- permit elemente duplicate
+
+Deosebiri:
+- listele sunt mutabile, tuplurile sunt imutabile
+
+
+2. In ce se aseamana și in ce se deosebesc listele și seturile?
+Asemanari:
+- pot contine tipuri de date diferite
+- sunt structuri mutabile
+Deosebiri:
+- listele contin elemente ordonate, seturile nu
+- listele permit elemente duplicate, seturile nu
+- listele se pot accesa cu ajutorul indecsilor dar seturile nu
+
+3. In ce se aseamana și in ce se deosebesc listele și dictionarele?
+Asemanari:
+- pot contine tipuri de date diferite
+- permit elemente duplicate
+- sunt structuri mutabile
+
+Deosebiri:
+- elementele din dictionar se acceseaza cu ajutorul cheilor iar a listelor cu ajutorul indecsilor
+
+4. In ce se aseamana și in ce se deosebesc seturile și tuplurile?
+Asemanari:
+- pot contine tipuri de date diferite
+
+Deosebiri:
+- doar tuplurile pot fi accesate cu ajutorul indecsilor
+- tuplurile contin elemente ordonate, seturile nu
+- tuplurile permit elemente duplicate, seturile nu
+- tuplurile sunt imutabile, seturile mutabile
+
+
+5. In ce se aseamana și in ce se deosebesc seturile și dictionarele?
+Asemanari:
+- pot contine tipuri de date diferite
+- sunt structuri mutabile
+
+Deosebiri:
+- doar dictionarele pot fi accesate
+- tuplurile permit elemente duplicate, seturile nu
+
+6. In ce se aseamana și in ce se deosebesc tuplurile și dictionarele?
+Asemanari:
+- pot contine tipuri de date diferite
+- ambele pot fi accesate
+
+Deosebiri:
+
+- dictionarele permit valori duplicate, seturile nu permit elemente
+- doar dictionarele pot fi modificate, tuplurile nu

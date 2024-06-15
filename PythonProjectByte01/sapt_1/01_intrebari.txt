@@ -1,0 +1,8 @@
+1. Enumereaza tipurile de date invatate
+2. Defineste conceptul de variabila
+3. Care este diferenta intre variabile și constante?
+4. Cum se transforma caracterul “3” in numarul 3?
+5. Se poate transforma numarul zecimal 3.14159 intr-un string, cum?
+6. Ce este un literal?
+7. Cum stie python ce tip de date are o variabila?
+8. Câte tipuri de operatori avem in python, dă două exemple din fiecare.

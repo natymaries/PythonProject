@@ -1,0 +1,56 @@
+Care este diferenta intre pp și oop?
+Cum ai defini procesul de modelare al datelor in oop?
+Care este continutul unei clase și cum se structureaza?
+
+Cum ai defini un atribut?
+- caracteristica unei clase sau o variabila de clasa
+
+Care sunt ati termeni cu care ne putem referi la atribute?
+- caracteristici, proprietati, camapuri
+
+Cum se defineste o metoda?
+- actiuni suportate de obiectul respectiv, comportamentul obiectului
+
+Ce este un constructor implicit?
+- metoda oferita default pt a creea un obiect
+- nu se pot da valori concrete atributelor
+
+Ce este un constructor explicit?
+- metoda personalizata pt a creea un obiect
+- se pot da valori atributelor prin parametri: __init_(self, param1, param2, ...)
+
+Cati parametrii va avea un constructor, da valoarea minima și valoarea maxima.
+- minim 1
+- nu exista numar maxim (se recomanda sub 6,7)
+
+Ce este o clasa, ce este un obiect, care sunt asemanarile și diferentele intre ele?
+- clasa reprezinta o schita sau un sablon
+- obiectul reprezint instanta unei clase, o variabila cu valori concrete pt atributele clasei
+
+Ce inseamna a instanta sau instanta unei clase?
+- actiunea de a creea un obiect folosind o clasa
+- instanta: obiectul creat folosind clasa
+
+Ce sunt modificatorii de acces, care sunt și cum se definesc?
+- controleaza vizibilitatea atributelor si a metodelor
+- private: vizibilitate doar in interiorul clasei
+- public: vizibilitate de oriunde
+- protected: vizibilitatea este in clase si subclase si pachet
+
+Defineste cei patru piloni ai programarii orientate pe obiect.
+- incapsulare: toate caracteristicile și operațiunile într-un singur loc (o clasa)
+- mostenire: actiunea de a mosteni atribute si metode
+- abstractizare: crearea claselor si metodelor abstracte care ascund detaliile concrete si obliga subclasele sa dea o implementare (o clasa abstracta mosteneste ABC)
+- polimorfism: procesul prin care subclase diferite dau o implementare diferita (ex. aria in forme geometrice are sens doar in subclase, calculul depinde de detaliile subclasei)
+
+Ce este o superclasa?
+ - o clasa mostenita de alta clasa
+
+Ce este o subclasa?
+ - o clasa mostenitoare a altei clase
+
+De ce se spune ca prin moștenire reducem duplicarea codului, sau cum creste reutilizarea codului, da un exemplu?
+- codul scris in superclasa este disponibil in subclasa
+
+Ce inseamna a suprascrie comportamentul unei metode?
+- suprascrierea apare atunci cand comportamentul mostenit nu se portriveste exact si complet in comportamentul subclasei

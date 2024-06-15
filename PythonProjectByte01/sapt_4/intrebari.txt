@@ -1,0 +1,52 @@
+Ce sunt functiile, la ce folosesc?
+- un bloc de cod care se executa cand este apelat
+- are un nume, set de parametrii
+
+Ce conventie de denumire urmeaza numele functiilor in python?
+- snakecase convention
+- functiile executa un task specific, numele ar trebui sa contina un verb foarte descriptiv
+
+Ce este un parametru?
+- variabilele disponibile in interiorul functiilor care primesc valori la apelare
+- sunt parametrii pozitionali sau dam anumite valori predefinite iau numele de parametrii optionali
+
+Care este numărul minim de parametrii pe care o functie ii poate avea?
+- 0
+
+Care este numărul maxim de parametrii pe care o functie ii poate avea?
+- teoretic nu exista limita de parametrii in Python, practic este limitat de memoria sistemului
+- fiecare functie ar trebui sa aiba un cat mai mic numar de parametrii
+
+Ce este un argument?
+- variabile/valori care se dau parametrilor unei functii cand aceasta este apelata
+
+Ce face instructiunea return?
+- trimite date dintr-o functie catre 'caller'(linia care apeleaza)
+- aceasta valoare se poate salva intr-o variabila pt a fi folosita mai tarziu
+
+Ce se intampla daca definesc o functie dar nu o apelez niciodata?
+- nu produce nici o eroare
+- daca nu este apelata instructiunile functiei nu se executa
+- instructiunile functiei se incarca in memorie/consuma memorie
+
+Care sunt diferentele intre instructiunea cu care definesc o functie și instructiunea cu care apelez functia respectiva?
+- constructie: def my_function(x):
+    def - cuvantul de definire a unei functii
+    x - parametrul functiei
+    : - caracterul de sfarsit a unei linii de definitie
+- linia de semnatura (signature) este unica pt fiecare functie,trebuie sa avem nume diferite(ori ultima metoda definita va fi cea folosita)
+
+- apel:        my_function(4)
+    my_function - numele functiei din semnatura
+    4 - argumentul dat de catre parametrul x
+    [optional] - daca corpul metodei contine un return atunci linia de apel este urmatoarea:
+        my_variable = my_function(4)
+
+Ce sunt exceptiile?
+- sunt cazuri de eroare la care ajungem ori din cauza datelor ori din cauza sintaxei si este recomandat a fi tratate
+
+Cum se arunca și cum se trateaza exceptiile in python?
+- aruncam o exceptie folosind cuvant cheie raise + tipul exceptiei
+- blocuri de cod try - except
+    try - In interiorul blocului de cod try punem instructiunea sau instructiunile care ar putea genera o exceptie.
+    except - punem instructiunile cu care vom trata exceptia

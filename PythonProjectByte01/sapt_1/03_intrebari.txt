@@ -1,0 +1,11 @@
+Ce sunt stringurile?
+Da doua exemple de operatii cu stringuri
+Da trei metode de stringuri care apar pe slideuri
+Da patru metode cu stringuri care nu apar pe slideuri ci in documentatia python
+Ce sunt escaping sequences, la ce se folosesc, da 2 exemple folosindule printand literale string
+Ce tip de date retunreaza metoda input?
+Ce face urmatoarea linie de cod:
+ghici = input()
+Cum obtinem un numar intreg din ce returneaza input?
+Care sunt partile componente al unui assert și la ce se foloseste?
+Ce instructiune putem folosi pentru probarea unei conditii care daca este adevarata va printa cuvantul okay și daca nu este adevarata va printa not ok.
